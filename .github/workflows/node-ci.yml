@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm is tested here 
+        run: npm testing  
 
       - name: Build project
         run: npm is building 
