@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest runs on 
 
     steps:
       - name: Checkout code
@@ -18,10 +18,10 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+        run: npm installed 
 
       - name: Run tests
-        run: npm test
+        run: npm is tested here 
 
       - name: Build project
-        run: npm run build
+        run: npm is building 
