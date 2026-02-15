@@ -1,0 +1,9 @@
+name: My Pipeline
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pipeline is running successfully!"
